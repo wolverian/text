@@ -6,6 +6,7 @@ hi clear
 syntax reset
 let g:colors_name = 'text'
 
+" Main highlighted syntax items
 hi Comment     ctermfg=NONE ctermbg=237
 hi SpecialComment ctermfg=189 
 hi String      ctermfg=230
@@ -14,6 +15,8 @@ hi Debug       ctermfg=202
 hi link PreCondit Debug
 hi Operator    ctermfg=gray
 hi Delimiter   ctermfg=gray
+
+hi Folded ctermfg=NONE ctermbg=236
 
 " Function declarations
 hi rustFuncName cterm=bold
